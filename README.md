@@ -1,53 +1,52 @@
-This project is a modern AI-based web application that detects human emotions from:
+# 🎭 Multimodal Emotion Detection System Using Deep Learning
 
-🎥 Video (facial expressions)
+This project is a **modern AI-based web application** that detects human emotions from:
 
-🎧 Audio (voice tone)
+- 🎥 **Video** (facial expressions)
+- 🎧 **Audio** (voice tone)
+- ✍️ **Text** (sentiment & emotion words)
+- 🔀 **Fusion** (combines all three for higher accuracy)
 
-✍️ Text (sentiment & emotion words)
+It uses **Deep Learning models** (TensorFlow/Keras) for emotion classification and is built with a clean, interactive **Flask web interface**.  
+Users can upload media or input text, and the system returns emotion predictions such as **Happy**, **Sad**, **Angry**, **Neutral**, etc.
 
-🔀 Fusion (combines all three for accuracy)
+---
 
-It uses Deep Learning models (TensorFlow/Keras) for classification and is built with a clean, interactive Flask web interface.
-Users can upload media or input text, and the system will analyze and return emotion predictions like Happy, Sad, Angry, Neutral, etc.
+## 🔧 Technologies Used
 
-🔧 Technologies Used:
-Layer	Tools/Tech
-👩‍💻 Backend	Python, Flask
-🧠 AI/ML	TensorFlow, Keras, OpenCV, librosa
-🖼️ UI	HTML5, CSS3, Responsive Layout
-🎨 Theme	Soft Modern UI (Poppins Font, Touch UI, Hover Effects)
+| Layer       | Tools/Tech                              |
+|-------------|----------------------------------------  |
+| 👩‍💻 Backend | Python, Flask                            |
+| 🧠 AI/ML     | TensorFlow, Keras, OpenCV, librosa     |
+| 🖼️ UI        | HTML5, CSS3, Responsive Layout         |
+| 🎨 Theme     | Soft Modern UI (Poppins, Hover effects)|
 
-🚀 Features:
-Upload a video, detect facial emotion frame by frame
+---
 
-Upload an audio file, extract tone-based emotion
+## 🚀 Features
 
-Paste or type text, analyze sentiment/emotion using NLP
+- 🎥 Upload a **video** to detect facial emotion frame-by-frame  
+- 🎧 Upload an **audio file** to extract emotion from voice tone  
+- ✍️ Type or paste **text** to analyze sentiment using NLP  
+- 🔀 Run **Fusion Detection** by combining video, audio, and text  
+- 🖼️ Displays the processed video with emotion labels  
+- 💫 Soft UI, animated cards, and a responsive interface
 
-Run Fusion Detection by combining all three inputs
+---
 
-Display processed video result on the same page
+## 📦 How to Run Locally
 
-Smooth, glowing, and responsive modern UI
-
-📦 How to Run Locally:
 
 # 1. Clone the repo
-
 git clone https://github.com/jananiraja3110/emotion-detection-ui.git
-
 cd emotion-detection-ui
 
-# 2. Create virtual environment (optional)
-
+# 2. (Optional) Create virtual environment
 python -m venv env
-
-env\\Scripts\\activate    # on Windows
+env\Scripts\activate      # on Windows
 
 # 3. Install dependencies
-
 pip install -r requirements.txt
 
-# 4. Run the app
+# 4. Run the application
 python app.py
